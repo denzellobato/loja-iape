@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRPE - Propagandas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .search-box input {
+      padding: 5px 10px;
+      width: 200px;
+    }
+
+    .icons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .main {
+      padding: 20px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .card-row {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      min-width: 150px;
+      height: 100px;
+      background-color: #ddd;
+      border-radius: 5px;
+    }
+
+    .content {
+      display: flex;
+      gap: 20px;
+    }
+
+    .sidebar {
+      flex: 1;
+      background-color: #e0e0e0;
+      padding: 10px;
+      border-radius: 5px;
+      height: 200px;
+    }
+
+    .main-box {
+      flex: 2;
+      background-color: #c0c0c0;
+      border-radius: 5px;
+      height: 200px;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+      background-color: #fff;
+      margin-top: 20px;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+
+    .footer-icon {
+      width: 30px;
+      height: 30px;
+      background-color: #ccc;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">IRPE</div>
+    <div class="search-box">
+      <input type="text" placeholder="Pesquisar...">
+    </div>
+    <div class="icons">
+      <div>☁️</div>
+      <div>🛒</div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="section-title">PROPAGANDAS</div>
+
+    <div class="card-row">
+      <div class="card">Categoria 1</div>
+      <div class="card">Categoria 2</div>
+      <div class="card">Categoria 3</div>
+      <div class="card">Categoria 4</div>
+      <div class="card">Categoria 5</div>
+    </div>
+
+    <div class="content">
+      <div class="sidebar">Menu Lateral</div>
+      <div class="main-box">Conteúdo principal</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-icon"></div>
+    <div class="footer-icon"></div>
+    <div class="footer-icon"></div>
+  </div>
+</body>
+</html>
